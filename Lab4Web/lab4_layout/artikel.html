@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab4Web - Artikel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Lab4Web</h1>
+            <p>Belajar membuat layout website dengan CSS</p>
+        </header>
+        <nav>
+            <a href="home.html">Home</a>
+            <a class="active" href="artikel.html">Artikel</a>
+            <a href="about.html">About</a>
+            <a href="kontak.html">Kontak</a>
+        </nav>
+        <section id="hero">
+            <h1>Artikel</h1>
+            <p>Catatan singkat seputar HTML dan CSS.</p>
+        </section>
+        <section id="wrapper">
+            <section id="main" style="width:100%;">
+                <article class="entry">
+                    <img src="images/html-article.svg" alt="Ilustrasi HTML">
+                    <h2>Mengenal HTML</h2>
+                    <p>HTML merupakan bahasa markup yang digunakan untuk membentuk struktur halaman web. Elemen seperti heading, paragraf, gambar, tautan, dan form ditulis menggunakan tag HTML.</p>
+                </article>
+                <hr class="divider">
+                <article class="entry">
+                    <img class="right-img" src="images/css-article.svg" alt="Ilustrasi CSS">
+                    <h2>Mengenal CSS</h2>
+                    <p>CSS digunakan untuk mengatur tampilan halaman web, misalnya warna, font, jarak, ukuran, dan posisi elemen. File CSS terpisah dapat dihubungkan ke HTML melalui tag link pada bagian head.</p>
+                </article>
+            </section>
+        </section>
+        <footer><p>&copy; 2026 Lab4Web | Praktikum Pemrograman Web</p></footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 4 - CSS Layout Box</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        .div1, .div2, .div3 {
+            float: left;
+            padding: 20px;
+            width: 120px;
+            text-align: center;
+            color: #111;
+        }
+
+        .div1 { background-color: red; }
+        .div2 { background-color: yellow; }
+        .div3 { background-color: green; color: white; }
+
+        .div4 {
+            background-color: blue;
+            color: white;
+            padding: 20px;
+            margin-top: 10px;
+            clear: left;
+            float: none;
+            width: 400px;
+            text-align: center;
+        }
+
+        .catatan {
+            clear: both;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Praktikum 4: CSS Layout - Box</h1>
+
+    <section>
+        <div class="div1">Div 1</div>
+        <div class="div2">Div 2</div>
+        <div class="div3">Div 3</div>
+        <div class="div4">Div 4 - clear: left</div>
+    </section>
+
+    <p class="catatan">
+        Uji properti <code>clear</code> dengan mengganti nilainya menjadi
+        <code>left</code>, <code>right</code>, atau <code>both</code>.
+    </p>
+</body>
+</html>

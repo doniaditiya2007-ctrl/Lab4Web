@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab4Web - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Lab4Web</h1>
+            <p>Belajar membuat layout website dengan CSS</p>
+        </header>
+
+        <nav>
+            <a class="active" href="home.html">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="about.html">About</a>
+            <a href="kontak.html">Kontak</a>
+        </nav>
+
+        <section id="hero">
+            <h1>Selamat Datang di Lab4Web</h1>
+            <p>Halaman latihan HTML dan CSS untuk memahami struktur halaman, navigasi, kolom, dan footer.</p>
+        </section>
+
+        <section id="wrapper">
+            <section id="main">
+                <h2>Layout Website</h2>
+                <p>Website ini menggunakan elemen HTML semantik seperti header, nav, section, article, aside, dan footer.</p>
+
+                <div class="row">
+                    <div class="box">
+                        <img class="image-circle" src="images/html.svg" alt="Ilustrasi HTML">
+                        <h3>HTML</h3>
+                        <p>HTML digunakan untuk menyusun struktur dan isi halaman website.</p>
+                    </div>
+                    <div class="box">
+                        <img class="image-circle" src="images/css.svg" alt="Ilustrasi CSS">
+                        <h3>CSS</h3>
+                        <p>CSS mengatur warna, jarak, ukuran, dan tata letak elemen.</p>
+                    </div>
+                    <div class="box">
+                        <img class="image-circle" src="images/layout.svg" alt="Ilustrasi layout">
+                        <h3>Layout</h3>
+                        <p>Layout membantu menyusun bagian website agar rapi dan mudah dibaca.</p>
+                    </div>
+                </div>
+
+                <hr class="divider">
+
+                <article class="entry">
+                    <img src="images/css-layout.svg" alt="Contoh CSS layout">
+                    <h2>Memahami CSS Layout</h2>
+                    <p>CSS layout digunakan untuk mengatur posisi elemen. Pada praktikum ini, properti float, clear, width, padding, dan box-sizing digunakan untuk membuat susunan halaman.</p>
+                </article>
+            </section>
+
+            <aside id="sidebar">
+                <div class="widget-box">
+                    <h3 class="title">Navigasi</h3>
+                    <ul>
+                        <li><a href="home.html">Halaman Home</a></li>
+                        <li><a href="artikel.html">Halaman Artikel</a></li>
+                        <li><a href="about.html">Tentang Website</a></li>
+                        <li><a href="kontak.html">Hubungi Kami</a></li>
+                    </ul>
+                </div>
+                <div class="widget-box">
+                    <h3 class="title">Tentang Praktikum</h3>
+                    <p>Praktikum 4 membahas penggunaan CSS untuk mengatur layout halaman web.</p>
+                </div>
+            </aside>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Lab4Web | Praktikum Pemrograman Web</p>
+        </footer>
+    </div>
+</body>
+</html>
